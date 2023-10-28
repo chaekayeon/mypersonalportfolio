@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K | Just Being Yourself - Official Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/27d050bafd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/my personal website official logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Future IT Specialist</p>
+                <h1>This is <span>Karen</span></h1>
+                <h6>Get to know about her more!</h6>
+            </div>
+        </div>
+    </div>
+    <!----------- ABOUT ----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/i am gayeon 02.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>An aspiring and versatile all around IT specialist with a strong background in various domains such as
+                        database administration, web development, data science, cloud computing, and computer programming.
+                        Her diverse skills set allows her to approach complex IT challenges with a holistic perspective, 
+                        enabling to deliver innovative and effective solutions that drive business success.</p>
+                    <br>
+                    <p>Outside the IT universe, she is God-fearing and has passion when it comes to food, singing, studying multiple languages
+                        such as Korean, Mandarin Chinese, and Spanish (besides her native languages English and Tagalog), Sudoku, 
+                        Mathematics, Science, and most of all Kpop.</p>
+                    </p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Front-End Coding (HTML, CSS, JavaScript)<br>Responsive Design<br>Back-End Web Programming Languages (PHP, Java, Python, C#)<br>Attention to details</li>
+                            <li><span>Database Administration</span><br>Computer Programming Languages (C#, HTML, Java, PHP, Python, R, SQL)<br>Database design and modelling<br>Database backup and recovery<br>Cloud computing<br>Database management frameworks and systems (Microsoft SQL Server, Oracle, Microsoft Access)<br>Troubleshooting<br>Operating system software (Linux, Microsoft Windows)<br>Data security</li>
+                            <li><span>Data Science</span><br>Python Programming<br>Mathematics<br>SQL<br>Computing<br>Statistics<br>Data Mining<br>Machine learning<br>Data visualization</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>NOTICE</span><br>Currently doesn't have any experience.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-present</span><br>Bachelor of Science in Information Technology<br>STI College</li>
+                            <li><span>2014-2019</span><br>Bachelor of Science in Manufacturing Engineering<br>Mapúa University</li>
+                            <li><span>2010-2014</span><br>High School Education<br>Colegio de San Bartolome de Novaliches</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------- SERVICES ----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod ut sapien non egestas.</p>
+                    <a href="#">Learn more.</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Process</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod ut sapien non egestas.</p>
+                    <a href="#">Learn more.</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-atom"></i>
+                    <h2>Data Science</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod ut sapien non egestas.</p>
+                    <a href="#">Learn more.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------- PORTFOLIO ----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/official_work_a.png">
+                    <div class="layer">
+                        <h3>Official Personal Portfolio Website</h3>
+                        <p>This is my official responsive personal portfolio website contains all of my works related to the IT universe.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/official_work_b.png">
+                    <div class="layer">
+                        <h3>Favorite Artists' Weverse Channels</h3>
+                        <p>A compilation of official Weverse channels of my favorite artists that are currently on Weverse platform to communicate with their respective fandoms thru synchronous and asynchronous formats.</p>
+                        <a href="https://unitedasonefamilyonweverse.carrd.co/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/official_work_c.png">
+                    <div class="layer">
+                        <h3>Official Personal Blog</h3>
+                        <p>This is my official personal blog where I could write some updates and commentaries in everything around the sun.</p>
+                        <a href="https://chaekayeon0908.wordpress.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----------- CONTACTS ----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> karensaysonchua1997@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> (+63) 998 304 8568</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/chaekayeon/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/chae_ka_yeon/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/karensaysonchua/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my_curriculum_vitae.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 by <i class="fa-solid fa-diamond"></i> UAO Entertainment. All Rights Reserved.</p>
+        </div>
+    </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemeu.style.right = "0";
+    }
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyVkpys04A_x8OOYFCB63z0D2D9HNIUF1Wq5Gxq664cCMnagUJtV9brjqmoylOXvsZILg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "The message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
